@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MainPage from 'conteiners/MainPage';
+import Header from 'components/Header';
 
 class App extends Component {
   constructor(props) {
@@ -7,7 +7,11 @@ class App extends Component {
   }
 
   render() {
-    return (<div><MainPage /></div>);
+    console.log('items', this.props.items)
+    return (
+    <div>
+      Header 1
+    </div>);
   }
 }
 
