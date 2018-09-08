@@ -1,0 +1,11 @@
+{
+    "places": 
+    [
+        { "id" : 1, "imp" : "free"},
+        { "id" : 2, "isFree" : "booked"},
+        { "id" : 3, "isFree" : "free"},
+        { "id" : 4, "isFree" : "free"}
+    ]
+}
+
+
